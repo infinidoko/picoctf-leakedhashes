@@ -1,1 +1,1 @@
-# picoctf-leakedhashes
+you can crack the weak MD5 hashes by using the findmyhash tool ..<br> to install is simply<br> <b>sudo apt-get install findmyhash</b><br> create a text file to contain only the hashed passwords in the txt file and run command:<br><b>findmyhash MD5 -f sample.txt</b><br> you will get several successful instances just use any of the password with the respective username and log in.
